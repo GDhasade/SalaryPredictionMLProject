@@ -152,12 +152,12 @@ _Here **GRADIENT BOOSTING REGRESSOR** give good performance as compare to others
     - 2. Deploy on the Heroku cloud platform.
     
 - Structrue of application and deployment requirements.
-    - [Artifacts/Folder] (https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/artifacts)
+    - ![Artifacts/Folder] (https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/artifacts)
         - model_code.ipynb : python code notebook 
         - model pickle file
-    - [Template/Folder] (https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/templates)
+    - ![Template/Folder] (https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/templates)
         - index.html file for Frontend
         - .css file for UI formating
-    - [Python Server] (https://github.com/GDhasade/SalaryPredictionMLProject)
+    - ![Python Server] (https://github.com/GDhasade/SalaryPredictionMLProject)
         - app.py : The python Flask application work as **server** handle all input and output between UI and model.
         - Requirement.txt: Contains all packages used for modelling. File require while deploying application on cloud.
