@@ -15,15 +15,15 @@ It also finds use in getting to understand current realities in the job market a
 The primary tool used for this project is Python 3, along with an extensive array of libraries and packages available for the manipulation of data,and development of predictive modeling algorithms.
 
 **Project Developement Structure:**
-    - [Artifacts/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/artifacts)
-        - model_code.ipynb : python code notebook 
-        - model pickle file
-    - [Template/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/templates)
-        - index.html file for Frontend
-        - .css file for UI formating
-     - [Python Server](https://github.com/GDhasade/SalaryPredictionMLProject)
-         - app.py : The python Flask application work as **server** handle all input and output between UI and model.
-         - Requirement.txt: Contains all packages used for modelling. File require while deploying application on cloud.
+- [Artifacts/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/artifacts)
+    - model_code.ipynb : python code notebook 
+    - model pickle file
+- [Template/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/templates)
+    - index.html file for Frontend
+    - .css file for UI formating
+- [Python Flask Server](https://github.com/GDhasade/SalaryPredictionMLProject)
+    - app.py : The python Flask application work as **server** handle all input and output between UI and model.
+    - Requirement.txt: Contains all packages used for modelling. File require while deploying application on cloud.
 
 
 # DISCOVER
