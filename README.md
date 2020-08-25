@@ -4,26 +4,38 @@
 
 # DEFINE
 
-## Project Goal:
+**Project Goal:**
 The goal of this project is to examine the dataset of job postings, and predict salaries for a new set of postings. - This will involve building a model to predict the salaries given in the test dataset.
 
-##  Practical use:
+**Practical use:**
 HR Department of a large company or a Consulting groups that needs real-time solutions in order to make effective employment offers to potential hires.
 
 It also finds use in getting to understand current realities in the job market and how businesses can leverage this in order to secure high quality talent, while keeping recuritment cost low.
 
 The primary tool used for this project is Python 3, along with an extensive array of libraries and packages available for the manipulation of data,and development of predictive modeling algorithms.
 
+**Project Developement Structure:**
+    - [Artifacts/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/artifacts)
+        - model_code.ipynb : python code notebook 
+        - model pickle file
+    - [Template/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/templates)
+        - index.html file for Frontend
+        - .css file for UI formating
+    - [Python Server](https://github.com/GDhasade/SalaryPredictionMLProject)
+        - app.py : The python Flask application work as **server** handle all input and output between UI and model.
+        - Requirement.txt: Contains all packages used for modelling. File require while deploying application on cloud.
+
+
 # DISCOVER
 
-### Data loading
+**Data loading**
 - Received data having 2 .csv files
     - 1st contains job features
     - 2nd contains salaries for each job.
 - In both sheets, JobID is common column.
 - Import both files and merge them into one single dataframe with reference to jobID.
 
-### Data Understanding
+**Data Understanding**
 - JOB TYPE - Janitor, Manager, CEO, CFO etc.
 - DEGREE - High school, College, Master's etc.
 - MAJOR - Physics, Biology, Maths etc.
@@ -32,13 +44,13 @@ The primary tool used for this project is Python 3, along with an extensive arra
 - MILES_FROM_METROLPOLIS - Distance from the metropolis
 - Every row(job) has a unique JOB_ID, there is a column, COMPANY_ID which is the company identifier.
 
-### Clean Dataset - Observatios & Outcomes
+**Clean Dataset - Observatios & Outcomes**
 - There are zero rows negative values in all numeric columns.
 - Years of Experience can be zero for fresher also Miles From Metropolis can be zero who live in city.
 - But, There are 5 invalid entries in salary column and all having value 0 which is not expected.
 - Hence need to handle those 5 values
 
-### Exploratory Data Analysis (EDA)
+**Exploratory Data Analysis (EDA)**
 - Target feature is Salary column rest others will be independent features (we exclude jobID, companyID features as they are unique identity key)
 - Except salary colum other two features having median and mean close to each other
 - Salary:
@@ -152,12 +164,12 @@ _Here **GRADIENT BOOSTING REGRESSOR** give good performance as compare to others
     - 2. Deploy on the Heroku cloud platform.
     
 - Structrue of application and deployment requirements.
-    - ![Artifacts/Folder] (https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/artifacts)
+    - [Artifacts/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/artifacts)
         - model_code.ipynb : python code notebook 
         - model pickle file
-    - ![Template/Folder] (https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/templates)
+    - [Template/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/templates)
         - index.html file for Frontend
         - .css file for UI formating
-    - ![Python Server] (https://github.com/GDhasade/SalaryPredictionMLProject)
+    - [Python Server](https://github.com/GDhasade/SalaryPredictionMLProject)
         - app.py : The python Flask application work as **server** handle all input and output between UI and model.
         - Requirement.txt: Contains all packages used for modelling. File require while deploying application on cloud.
