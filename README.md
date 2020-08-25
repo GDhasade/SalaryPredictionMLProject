@@ -21,9 +21,9 @@ The primary tool used for this project is Python 3, along with an extensive arra
     - [Template/Folder](https://github.com/GDhasade/SalaryPredictionMLProject/tree/master/templates)
         - index.html file for Frontend
         - .css file for UI formating
-    - [Python Server](https://github.com/GDhasade/SalaryPredictionMLProject)
-        - app.py : The python Flask application work as **server** handle all input and output between UI and model.
-        - Requirement.txt: Contains all packages used for modelling. File require while deploying application on cloud.
+     - [Python Server](https://github.com/GDhasade/SalaryPredictionMLProject)
+         - app.py : The python Flask application work as **server** handle all input and output between UI and model.
+         - Requirement.txt: Contains all packages used for modelling. File require while deploying application on cloud.
 
 
 # DISCOVER
